@@ -95,3 +95,54 @@
     }
 
 /* Row-2 css end*/
+/* Row-3 css is start*/
+#row3{
+    height: 500px;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?cs=srgb&dl=pexels-pixabay-302769.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-repeat: round;
+    position: relative;
+}
+.overlayrow3{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .3);
+    position: absolute;
+}
+.banner_section{
+    text-align: center;
+    color:#fff;
+    position: absolute;
+    width: 90%;
+    margin:0 auto;
+}
+.banner_content{}
+.banner_content h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 50px;
+    padding-top: 90px;
+}
+.banner_content p{
+    font-size: 18px;
+    font-weight:600px;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.banner_button{}
+.banner_button_button{
+    padding: 10px 20px;
+    background: none ;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.banner_button button:hover{
+    background-color:lightsalmon;
+    transition: 1s;
+}
+/*Row-3 is end*/
