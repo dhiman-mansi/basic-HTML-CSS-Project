@@ -135,8 +135,8 @@
 .banner_button_button{
     padding: 10px 20px;
     background: none ;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid black;
+    color: black;
     text-transform: uppercase;
     border-radius: 3px;
     margin-right: 10px;
@@ -146,3 +146,66 @@
     transition: 1s;
 }
 /*Row-3 is end*/
+/* Row4 css start*/
+
+#row4{
+    height: 80px;
+    width: 100%;
+    background: #234757;
+}
+.form-section{
+    width: 90%;
+    margin: 0 auto;
+}
+.text-part{
+    width: 20%;
+    float: left;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.text-part h4{
+line-height: 30px;
+}
+.text-part h1{
+    color: #fff;
+}
+.form-part{
+    padding: 20px;
+}
+.form-part form{
+    width: 80%;
+    float: left;
+}
+.input-item{
+    float: left;
+    padding-top:10px;
+}
+.input-item label{
+    font-size: 20px;
+    font-weight: 500px;
+    color:black;
+    padding-right: 15px;
+    margin-left: 20px;
+}
+.input-item input{type="text"}{
+    padding: 8px;
+    width: 320px;
+}
+.input-item input{type="date"}{
+    padding: 8px;
+    width: 320px;
+}
+.input-item i{
+    color: gray;
+    position: absolute;
+    margin-left: -26px;
+    line-height: 35px;
+}
+
+.form-part button{
+    padding: 10px;
+    margin-top: 10px;
+    background: lightgrey;
+    border: none;
+}
+/* Row4 css end*/
